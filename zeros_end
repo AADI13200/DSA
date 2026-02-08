@@ -1,0 +1,32 @@
+
+# BRUTE FORCE APPRAOCH
+
+def moveZeroes(arr):
+    # Create temp array
+    temp = [0] * len(arr)
+
+    # Pointer to fill temp
+    index = 0
+    # Traverse input array
+    for num in arr:
+        # If non-zero, copy to temp
+        if num != 0:
+            temp[index] = num
+            index += 1
+
+    # Copy temp back to original
+    for i in range(len(arr)):
+        arr[i] = temp[i]
+
+    # Return updated array
+    return arr
+
+
+arr = [0, 1, 0, 3, 12]
+result = moveZeroes(arr)
+    # Print result
+print("Array after moving zeroes:", end=" ")
+for num in result:
+    print(num, end=" ")
+print()
+

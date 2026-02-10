@@ -11,7 +11,8 @@ def max_consecutive(a):
         #using conditional expression and max will be changed once after the upper if else block is completed
         #if count > max then max will be count else max will be max itself
         max=count if count>max else max
-
+        # mostly add this line in 1st if condition block but it will be executed in every iteration of the
+        #  loop and we can avoid that by adding this line outside the if else block
     print("The maximum consecutive 1's are : ",max)
 
 

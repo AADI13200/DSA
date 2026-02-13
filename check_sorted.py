@@ -20,8 +20,8 @@ else:
 
 # OPTIMAL APPROACH (O(n))
 
-def check_sort(a,n):
-    for i in range(1,n):
+'''def check_sort(a,n):
+    for i in range(1,n):        #we have to add range(1,n) coz when it comes to a[i-1] if i=0 then a[-1] makes it wrong
         if (a[i]<a[i-1]):
             return False
     return True
@@ -31,4 +31,4 @@ n=len(a)
 
 ans=check_sort(a,n)
 
-print("array is sorted" if ans else "Array is not sorted")
+print("array is sorted" if ans else "Array is not sorted")'''

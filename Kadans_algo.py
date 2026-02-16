@@ -36,7 +36,7 @@ kadans_algo(a)'''
 
 def max_subarray_sum(arr):
     current_sum = 0
-    maximum = float('-inf')  # Equivalent to LONG_MIN
+    maximum = float('-inf')  
     
     for num in arr:
         current_sum += num
@@ -73,4 +73,4 @@ print(max_subarray_sum(arr))  # Output: 9
 
 #5th element → 5
 #current_sum = 4 + 5 = 9
-#maximum = max(6, 9) = 9(final answer)
+#maximum = max(6, 9) = 9 (final answer)

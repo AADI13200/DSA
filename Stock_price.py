@@ -1,3 +1,5 @@
+# brute force approach
+
 def stock_prices(a):
     max_profit,profit=0,0
     for i in range(len(a)):
@@ -26,7 +28,7 @@ print(stock_prices(a))
 #Max profit becomes 5
 
 
-#Brute Force Approach 
+#optimal Approach 
 class Solution:
     # Function to calculate maximum profit using single pass
     def stockbuySell(self, prices):

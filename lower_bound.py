@@ -32,3 +32,6 @@ def lowerbnd(a,y):
 a=[3, 5, 8, 15, 19]
 y=9
 c=lowerbnd(a,y)
+
+
+#upper bound is the same just change the condition as a[mid]>y only greater than sign

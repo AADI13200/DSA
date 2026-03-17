@@ -33,5 +33,5 @@ a=[3, 5, 8, 15, 19]
 y=9
 c=lowerbnd(a,y)
 
-
-#upper bound is the same just change the condition as a[mid]>y only greater than sign
+#Lower Bound: This is the index of the first element that is not less than the target value.
+#Upper Bound: This is the index of the first element that is strictly greater than the target value.

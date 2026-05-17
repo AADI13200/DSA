@@ -21,7 +21,7 @@ def smallest_divisor_thresh(nums, threshold):
         if solver(nums,mid)<=threshold:
             high=mid
         else:
-            low=mid+1
+            low=mid+ 1
     return low
 a=[1,2,3,4,5]
 print(smallest_divisor_thresh(a,8))

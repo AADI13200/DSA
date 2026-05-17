@@ -10,8 +10,9 @@ print(smallest_divisor_thresh(a,6))'''
 
 
 # using BS brute force
+import math
 def solver(a,div):
-    return sum((x+div-1)//div for x in a)
+    return sum(math.ceil(x/div) for x in a)
 
 def smallest_divisor_thresh(nums, threshold):
     low,high=1,max(nums)
